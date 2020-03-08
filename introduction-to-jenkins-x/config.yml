@@ -1,0 +1,9 @@
+version: "2"
+containers:
+- name: jx-container
+  image: byrnedo/alpine-curl
+  ports:
+  - 8080
+  - 9090
+  - 80
+  memory: 128

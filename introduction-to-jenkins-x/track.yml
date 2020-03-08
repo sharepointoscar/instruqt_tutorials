@@ -1,0 +1,45 @@
+slug: introduction-to-jenkins-x
+id: 9qm95rd9yja6
+type: track
+title: Introduction to Jenkins X
+teaser: Learn how to use Jenkins X.  From configuring TLS and custom domain to deploying
+  your first app.
+description: |-
+  # Overview
+  Easily create a fully functioning Kubernetes cluster using Jenkins X
+  Install Jenkins X on a cluster and automatically have a full CI/CD pipeline with staging and production environments
+  Use Jenkins X quickstarts to quickly create and develop applications
+  Create and use preview environments to test out changes before they’re promoted to production
+  Take an application from start to production in Jenkins X
+icon: https://pbs.twimg.com/profile_images/1156590493784051712/cYXnl7EE_reasonably_small.jpg
+tags:
+- JenkinsX
+- ' Kubernetes'
+- ' Introduction'
+owner: cloudbees
+developers:
+- me@sharepointoscar.com
+- aperianez@cloudbees.com
+private: true
+published: false
+challenges:
+- slug: install-jenkins-x
+  id: toqfmjhbvxed
+  type: challenge
+  title: Install Jenkins X
+  teaser: Learn how to install Jenkins X.  Then quickly create a QuickStart and deploy
+    it to Staging.
+  assignment: "# download binary for CJXD (CloudBees Jenkins X Distro)\n# https://docs.cloudbees.com/docs/cloudbees-jenkins-x-distribution
+    \ncurl -L https://storage.googleapis.com/artifacts.jenkinsxio.appspot.com/binaries/cjxd/latest/jx-darwin-amd64.tar.gz
+    | tar xzv\n\n# move to bin\nsudo mv jx /usr/local/bin\n\n# test\njx version"
+  notes:
+  - type: text
+    contents: '# We are building your enviornment now...'
+  tabs:
+  - title: Terminal
+    type: terminal
+    hostname: jx-container
+    url: http://github.com/sharepointoscar/ToC
+  difficulty: basic
+  timelimit: 500
+checksum: "141145783938531936"
